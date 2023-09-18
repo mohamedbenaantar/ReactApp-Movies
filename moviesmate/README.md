@@ -18,5 +18,8 @@ io/create-react-app/docs/deployment) for more information.
 
 
 
-### `working with routes we need to install react-router-dom`
-> npm install react-router-dom@6
+### working with routes we need to install react-router-dom
+npm install react-router-dom@6
+
+### Install Tailwind css the version 3
+npm install -D tailwindcss@3
