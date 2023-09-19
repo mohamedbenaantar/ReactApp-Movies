@@ -7,7 +7,7 @@ export const Card = ({movie}) => {
   return (
     <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 m-4">
     <Link to="#">
-        <img className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg m-auto my-4" src={image} alt="" />
+        <img className="object-cover w-full rounded-t-lg h-90  md:rounded-none md:rounded-l-lg" src={image} alt="" />
     </Link>
     <div className="p-5">
         <Link to="#">

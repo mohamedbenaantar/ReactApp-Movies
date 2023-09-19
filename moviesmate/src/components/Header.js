@@ -29,9 +29,9 @@ export const Header = () => {
     <header>
       
 <nav className="bg-white border-gray-200 dark:bg-gray-900">
-  <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+  <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto ">
   <Link to="/" className="flex items-center">
-      <img src={Logo} className="h-8 mr-3" alt="mywebsite Logo" />
+      <img src={Logo} className="h-8 m-3" alt="mywebsite Logo" />
       <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">MoviesMate</span>
   </Link>
   <div className="flex md:order-2">
