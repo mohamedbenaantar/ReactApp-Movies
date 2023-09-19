@@ -6,7 +6,7 @@ import { MoviesList, MovieDetail,  Search, PageNotfound} from "./../pages/index"
 
 export const AllRoutes = () => {
   return (
-    <div className="dark:bg-darkbg">
+    <div className="dark:bg-darkbg bg-blue-400">
     <Routes>
         <Route path="/" element={<MoviesList apiPath="discover/movie"/>}/>
         <Route path="movie/:id" element={<MovieDetail/>}/>
