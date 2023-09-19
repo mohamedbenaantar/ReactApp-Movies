@@ -15,6 +15,8 @@ export const MovieDetail = () => {
         }
         fetchMovie()
     }, [])
+
+   
   return (
     <main>
         <section className="flex justify-around flex-wrap py-3">
